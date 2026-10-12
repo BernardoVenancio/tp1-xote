@@ -1,0 +1,711 @@
+{
+  "nome": "xote_02_semente",
+  "metodo": "gramatica generativa probabilistica",
+  "semente": 137,
+  "variacao": 0.2,
+  "ciclos": 2,
+  "bpm": 80,
+  "compasso": "2/4",
+  "tonalidade": "Sol maior",
+  "transposicao_melodia_semitons": -12,
+  "estrutura": "S -> A A B A (repetida por ciclo)",
+  "barras": 32,
+  "duracao_segundos": 48.0,
+  "regras_com_pesos": {
+    "A": [
+      [
+        "P Q",
+        0.8200000000000001
+      ],
+      [
+        "Q P",
+        0.18000000000000002
+      ]
+    ],
+    "B": [
+      [
+        "R Q",
+        0.8200000000000001
+      ],
+      [
+        "R P",
+        0.18000000000000002
+      ]
+    ],
+    "P": [
+      [
+        "subida",
+        0.8
+      ],
+      [
+        "arco",
+        0.75
+      ],
+      [
+        "vizinhanca",
+        0.8
+      ],
+      [
+        "salto",
+        0.56
+      ]
+    ],
+    "Q": [
+      [
+        "cadencia",
+        1.3
+      ],
+      [
+        "sustentado",
+        0.9
+      ],
+      [
+        "virada",
+        0.52
+      ]
+    ],
+    "R": [
+      [
+        "contraste",
+        0.8
+      ],
+      [
+        "descida",
+        1
+      ],
+      [
+        "resposta",
+        0.6000000000000001
+      ]
+    ]
+  },
+  "motivos_gerados": [
+    "arco",
+    "virada",
+    "arco",
+    "virada",
+    "descida",
+    "salto",
+    "sustentado",
+    "subida",
+    "arco",
+    "cadencia",
+    "salto",
+    "cadencia",
+    "contraste",
+    "vizinhanca",
+    "virada",
+    "vizinhanca"
+  ],
+  "derivacoes": [
+    {
+      "ciclo": 1,
+      "nao_terminal": "A",
+      "producao": "P Q"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "P",
+      "producao": "arco"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "Q",
+      "producao": "virada"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "A",
+      "producao": "P Q"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "P",
+      "producao": "arco"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "Q",
+      "producao": "virada"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "B",
+      "producao": "R P"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "R",
+      "producao": "descida"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "P",
+      "producao": "salto"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "A",
+      "producao": "Q P"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "Q",
+      "producao": "sustentado"
+    },
+    {
+      "ciclo": 1,
+      "nao_terminal": "P",
+      "producao": "subida"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "A",
+      "producao": "P Q"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "P",
+      "producao": "arco"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "Q",
+      "producao": "cadencia"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "A",
+      "producao": "P Q"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "P",
+      "producao": "salto"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "Q",
+      "producao": "cadencia"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "B",
+      "producao": "R P"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "R",
+      "producao": "contraste"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "P",
+      "producao": "vizinhanca"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "A",
+      "producao": "Q P"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "Q",
+      "producao": "virada"
+    },
+    {
+      "ciclo": 2,
+      "nao_terminal": "P",
+      "producao": "vizinhanca"
+    }
+  ],
+  "melodia_notas": [
+    {
+      "motivo": "arco",
+      "compasso": 1,
+      "tempo": 0.0,
+      "nota": 55
+    },
+    {
+      "motivo": "arco",
+      "compasso": 1,
+      "tempo": 1.0,
+      "nota": 59
+    },
+    {
+      "motivo": "arco",
+      "compasso": 1,
+      "tempo": 1.5,
+      "nota": 62
+    },
+    {
+      "motivo": "arco",
+      "compasso": 2,
+      "tempo": 2.0,
+      "nota": 64
+    },
+    {
+      "motivo": "arco",
+      "compasso": 2,
+      "tempo": 3.0,
+      "nota": 60
+    },
+    {
+      "motivo": "virada",
+      "compasso": 3,
+      "tempo": 4.0,
+      "nota": 69
+    },
+    {
+      "motivo": "virada",
+      "compasso": 3,
+      "tempo": 4.5,
+      "nota": 67
+    },
+    {
+      "motivo": "virada",
+      "compasso": 3,
+      "tempo": 5.0,
+      "nota": 66
+    },
+    {
+      "motivo": "virada",
+      "compasso": 3,
+      "tempo": 5.5,
+      "nota": 64
+    },
+    {
+      "motivo": "virada",
+      "compasso": 4,
+      "tempo": 6.0,
+      "nota": 55
+    },
+    {
+      "motivo": "arco",
+      "compasso": 5,
+      "tempo": 8.0,
+      "nota": 55
+    },
+    {
+      "motivo": "arco",
+      "compasso": 5,
+      "tempo": 9.0,
+      "nota": 59
+    },
+    {
+      "motivo": "arco",
+      "compasso": 5,
+      "tempo": 9.5,
+      "nota": 62
+    },
+    {
+      "motivo": "arco",
+      "compasso": 6,
+      "tempo": 10.0,
+      "nota": 64
+    },
+    {
+      "motivo": "arco",
+      "compasso": 6,
+      "tempo": 11.0,
+      "nota": 60
+    },
+    {
+      "motivo": "virada",
+      "compasso": 7,
+      "tempo": 12.0,
+      "nota": 69
+    },
+    {
+      "motivo": "virada",
+      "compasso": 7,
+      "tempo": 12.5,
+      "nota": 67
+    },
+    {
+      "motivo": "virada",
+      "compasso": 7,
+      "tempo": 13.0,
+      "nota": 66
+    },
+    {
+      "motivo": "virada",
+      "compasso": 7,
+      "tempo": 13.5,
+      "nota": 64
+    },
+    {
+      "motivo": "virada",
+      "compasso": 8,
+      "tempo": 14.0,
+      "nota": 55
+    },
+    {
+      "motivo": "descida",
+      "compasso": 9,
+      "tempo": 16.0,
+      "nota": 71
+    },
+    {
+      "motivo": "descida",
+      "compasso": 9,
+      "tempo": 16.5,
+      "nota": 69
+    },
+    {
+      "motivo": "descida",
+      "compasso": 9,
+      "tempo": 17.0,
+      "nota": 67
+    },
+    {
+      "motivo": "descida",
+      "compasso": 10,
+      "tempo": 18.0,
+      "nota": 59
+    },
+    {
+      "motivo": "descida",
+      "compasso": 10,
+      "tempo": 19.0,
+      "nota": 57
+    },
+    {
+      "motivo": "salto",
+      "compasso": 11,
+      "tempo": 20.0,
+      "nota": 62
+    },
+    {
+      "motivo": "salto",
+      "compasso": 11,
+      "tempo": 21.0,
+      "nota": 69
+    },
+    {
+      "motivo": "salto",
+      "compasso": 11,
+      "tempo": 21.5,
+      "nota": 66
+    },
+    {
+      "motivo": "salto",
+      "compasso": 12,
+      "tempo": 22.0,
+      "nota": 64
+    },
+    {
+      "motivo": "salto",
+      "compasso": 12,
+      "tempo": 23.0,
+      "nota": 62
+    },
+    {
+      "motivo": "sustentado",
+      "compasso": 13,
+      "tempo": 24.0,
+      "nota": 55
+    },
+    {
+      "motivo": "sustentado",
+      "compasso": 14,
+      "tempo": 26.0,
+      "nota": 62
+    },
+    {
+      "motivo": "sustentado",
+      "compasso": 14,
+      "tempo": 26.5,
+      "nota": 64
+    },
+    {
+      "motivo": "sustentado",
+      "compasso": 14,
+      "tempo": 27.0,
+      "nota": 60
+    },
+    {
+      "motivo": "subida",
+      "compasso": 15,
+      "tempo": 28.0,
+      "nota": 62
+    },
+    {
+      "motivo": "subida",
+      "compasso": 15,
+      "tempo": 28.5,
+      "nota": 64
+    },
+    {
+      "motivo": "subida",
+      "compasso": 15,
+      "tempo": 29.0,
+      "nota": 66
+    },
+    {
+      "motivo": "subida",
+      "compasso": 16,
+      "tempo": 30.0,
+      "nota": 60
+    },
+    {
+      "motivo": "subida",
+      "compasso": 16,
+      "tempo": 30.5,
+      "nota": 59
+    },
+    {
+      "motivo": "subida",
+      "compasso": 16,
+      "tempo": 31.0,
+      "nota": 55
+    },
+    {
+      "motivo": "arco",
+      "compasso": 17,
+      "tempo": 32.0,
+      "nota": 55
+    },
+    {
+      "motivo": "arco",
+      "compasso": 17,
+      "tempo": 33.0,
+      "nota": 59
+    },
+    {
+      "motivo": "arco",
+      "compasso": 17,
+      "tempo": 33.5,
+      "nota": 62
+    },
+    {
+      "motivo": "arco",
+      "compasso": 18,
+      "tempo": 34.0,
+      "nota": 64
+    },
+    {
+      "motivo": "arco",
+      "compasso": 18,
+      "tempo": 35.0,
+      "nota": 60
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 19,
+      "tempo": 36.0,
+      "nota": 66
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 19,
+      "tempo": 36.5,
+      "nota": 64
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 19,
+      "tempo": 37.0,
+      "nota": 62
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 20,
+      "tempo": 38.0,
+      "nota": 55
+    },
+    {
+      "motivo": "salto",
+      "compasso": 21,
+      "tempo": 40.0,
+      "nota": 55
+    },
+    {
+      "motivo": "salto",
+      "compasso": 21,
+      "tempo": 41.0,
+      "nota": 62
+    },
+    {
+      "motivo": "salto",
+      "compasso": 21,
+      "tempo": 41.5,
+      "nota": 59
+    },
+    {
+      "motivo": "salto",
+      "compasso": 22,
+      "tempo": 42.0,
+      "nota": 62
+    },
+    {
+      "motivo": "salto",
+      "compasso": 22,
+      "tempo": 43.0,
+      "nota": 60
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 23,
+      "tempo": 44.0,
+      "nota": 66
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 23,
+      "tempo": 44.5,
+      "nota": 64
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 23,
+      "tempo": 45.0,
+      "nota": 62
+    },
+    {
+      "motivo": "cadencia",
+      "compasso": 24,
+      "tempo": 46.0,
+      "nota": 55
+    },
+    {
+      "motivo": "contraste",
+      "compasso": 25,
+      "tempo": 48.0,
+      "nota": 64
+    },
+    {
+      "motivo": "contraste",
+      "compasso": 25,
+      "tempo": 49.0,
+      "nota": 71
+    },
+    {
+      "motivo": "contraste",
+      "compasso": 26,
+      "tempo": 50.0,
+      "nota": 60
+    },
+    {
+      "motivo": "contraste",
+      "compasso": 26,
+      "tempo": 50.5,
+      "nota": 62
+    },
+    {
+      "motivo": "contraste",
+      "compasso": 26,
+      "tempo": 51.0,
+      "nota": 57
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 27,
+      "tempo": 52.0,
+      "nota": 62
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 27,
+      "tempo": 52.5,
+      "nota": 64
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 27,
+      "tempo": 53.0,
+      "nota": 62
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 28,
+      "tempo": 54.0,
+      "nota": 66
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 28,
+      "tempo": 54.5,
+      "nota": 64
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 28,
+      "tempo": 55.0,
+      "nota": 62
+    },
+    {
+      "motivo": "virada",
+      "compasso": 29,
+      "tempo": 56.0,
+      "nota": 62
+    },
+    {
+      "motivo": "virada",
+      "compasso": 29,
+      "tempo": 56.5,
+      "nota": 60
+    },
+    {
+      "motivo": "virada",
+      "compasso": 29,
+      "tempo": 57.0,
+      "nota": 59
+    },
+    {
+      "motivo": "virada",
+      "compasso": 29,
+      "tempo": 57.5,
+      "nota": 57
+    },
+    {
+      "motivo": "virada",
+      "compasso": 30,
+      "tempo": 58.0,
+      "nota": 60
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 31,
+      "tempo": 60.0,
+      "nota": 62
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 31,
+      "tempo": 60.5,
+      "nota": 64
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 31,
+      "tempo": 61.0,
+      "nota": 62
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 32,
+      "tempo": 62.0,
+      "nota": 59
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 32,
+      "tempo": 62.5,
+      "nota": 57
+    },
+    {
+      "motivo": "vizinhanca",
+      "compasso": 32,
+      "tempo": 63.0,
+      "nota": 55
+    }
+  ],
+  "contagem_eventos": {
+    "sanfona_melodia": 80,
+    "sanfona_harmonia": 96,
+    "zabumba": 96,
+    "triangulo": 85
+  },
+  "arquivo_midi": "midis/xote_02_semente.mid"
+}
